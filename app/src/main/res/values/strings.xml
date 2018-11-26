@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Waqf-e-Nau</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Waqf-e-Nau</string>
+    <string name="nav_header_subtitle">Waqf-e-Nau@ahmadiyya.de</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

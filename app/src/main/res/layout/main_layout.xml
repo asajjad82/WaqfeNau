@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TextView
+            android:id="@+id/aboutHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="Tehrik-e-Waqf-e-Nau:" />
+
+        <TextView
+            android:id="@+id/aboutHeadingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutHeading"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:text="Das Tehrik-e-Waqf-e-Nau wurde am 03. April 1987 unter Göttlicher Leitung von Hazrat Khalifa-tul-Masih IVrh gegründet. Diese Initiative hat sozusagen die Wachstumsphase hinter sich gelassen und bringt erste Früchte hervor . Es ist ein Segen Gottes, dass dieses Tehrik durch die wertvollen Anweisungen der Khalifen ständig weiter entwickelt wurde, die Sie in Ihren Freitagsansprachen und diversen anderen Reden, aber auch in den Klassen der Waqifien- und Waqifaat-e-Nau erteilten. So haben die Khalifen diese Göttliche Pflanze mit eigener Hand zum blühen gebracht." />
+
+        <TextView
+            android:id="@+id/aboutNisab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutHeadingText"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:text="Nisab Waqf-e-Nau:" />
+
+        <TextView
+            android:id="@+id/aboutNisabText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutNisab"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:text="Unter der Anweisung der Khalifen der Zeit hat die Wakalat-e-Waqf-e-Nau (Internationale Abteilung für Waqf-e-Nau) für die religiöse und moralische Bildung der Waqifien- und Waqifaat-e-Nau in allen Ländern der Welt ein Lehrprogramm (Nisab) erstellt. Es ist nun die Pflicht jedes Waqif-e-Nau, das Nisab gemäß seinem Alter zu beherrschen." />
+    </TableLayout>
+</ScrollView>

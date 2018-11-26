@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <Button
+            android:id="@+id/classBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:layout_below="@+id/classBtn2"
+            android:layout_margin="16dp"
+            android:text="10.12.2017 - Bustan-e-Waqfe Nau" />
+
+        <Button
+            android:id="@+id/classBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:layout_below="@+id/classBtn1"
+            android:layout_margin="16dp"
+            android:text="09.12.2017 - Gulshan-e-Waqfe Nau Atfal " />
+
+        <Button
+            android:id="@+id/classBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:layout_margin="16dp"
+            android:text="12.11.2017 - Gulshan-e-Waqfe Nau" />
+
+
+        <Button
+            android:id="@+id/classBtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/classBtn3"
+            android:layout_margin="16dp"
+            android:text="Unknown - Waqf-e-Nau Klass" />
+
+        <Button
+            android:id="@+id/classBtn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/classBtn4"
+            android:layout_margin="16dp"
+            android:text="Unknown - Waqf-e-Nau Klass" />
+
+
+    </TableLayout>
+</ScrollView >

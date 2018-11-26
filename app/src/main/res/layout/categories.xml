@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/catText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="Was willst du lernen?" />
+
+    <Button
+        android:id="@+id/hadithBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/catText"
+        android:background="@color/violet"
+        android:layout_margin="16dp"
+        android:text="Hadith" />
+
+    <Button
+        android:id="@+id/prayerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hadithBtn"
+        android:background="@color/orange5"
+        android:layout_margin="16dp"
+        android:text="Gebete" />
+
+    <Button
+        android:id="@+id/namazBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prayerBtn"
+        android:background="@color/yellow2"
+        android:layout_margin="16dp"
+        android:text="Namaz" />
+
+    <Button
+        android:id="@+id/nazmBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namazBtn"
+        android:background="@color/grey05"
+        android:layout_margin="16dp"
+        android:text="Gedicht" />
+
+    <Button
+        android:id="@+id/quranBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nazmBtn"
+        android:background="@color/blue2"
+        android:layout_margin="16dp"
+        android:text="Koran" />
+
+</RelativeLayout>
