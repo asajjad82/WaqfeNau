@@ -13,27 +13,33 @@
             android:id="@+id/classBtn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/green"
             android:layout_below="@+id/classBtn2"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonshape"
+            android:shadowRadius="5"
             android:layout_margin="16dp"
-            android:text="10.12.2017 - Bustan-e-Waqfe Nau" />
+            android:text="@string/class_txt_10122017" />
 
         <Button
             android:id="@+id/classBtn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/green"
             android:layout_below="@+id/classBtn1"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonshape"
+            android:shadowRadius="5"
             android:layout_margin="16dp"
-            android:text="09.12.2017 - Gulshan-e-Waqfe Nau Atfal " />
+            android:text="@string/class_txt_09122017" />
 
         <Button
             android:id="@+id/classBtn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/green"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonshape"
+            android:shadowRadius="5"
             android:layout_margin="16dp"
-            android:text="12.11.2017 - Gulshan-e-Waqfe Nau" />
+            android:text="@string/class_txt_12112017" />
 
 
         <Button
@@ -41,16 +47,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/classBtn3"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonshape"
+            android:shadowRadius="5"
             android:layout_margin="16dp"
-            android:text="Unknown - Waqf-e-Nau Klass" />
+            android:text="@string/class_txt_unknown1" />
 
         <Button
             android:id="@+id/classBtn5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/classBtn4"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonshape"
+            android:shadowRadius="5"
             android:layout_margin="16dp"
-            android:text="Unknown - Waqf-e-Nau Klass" />
+            android:text="@string/class_txt_unknown2" />
 
 
     </TableLayout>

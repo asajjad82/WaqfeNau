@@ -18,7 +18,7 @@
             android:textSize="20sp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:text="Wird bald verfügbar sein!" />
+            android:text="@string/parents_text" />
     </TableLayout>
 
 </ScrollView>

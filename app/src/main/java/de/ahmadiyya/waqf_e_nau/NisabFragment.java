@@ -34,57 +34,73 @@ public class NisabFragment extends Fragment {
         button7.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent myIntent = new Intent(getActivity(), CategoryActivity.class);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "7");
                 getActivity().startActivity(myIntent);
             }
         });
 
         button8.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(getActivity(), CategoryActivity.class);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "8");
                 getActivity().startActivity(myIntent);
             }
         });
 
         button9.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                getActivity().setContentView(R.layout.categories);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "9");
+                getActivity().startActivity(myIntent);
             }
         });
 
         button10.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                getActivity().setContentView(R.layout.categories);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "10");
+                getActivity().startActivity(myIntent);
             }
         });
 
         button11.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                getActivity().setContentView(R.layout.categories);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "11");
+                getActivity().startActivity(myIntent);
             }
         });
 
         button12.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                getActivity().setContentView(R.layout.categories);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "12");
+                getActivity().startActivity(myIntent);
             }
         });
 
         button13.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                getActivity().setContentView(R.layout.categories);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "13");
+                getActivity().startActivity(myIntent);
             }
         });
 
         button14.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                getActivity().setContentView(R.layout.categories);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "14");
+                getActivity().startActivity(myIntent);
             }
         });
 
         button15.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                getActivity().setContentView(R.layout.categories);
+                Intent myIntent = new Intent(getActivity(), VFlipper.class);
+                myIntent.putExtra("button", "15");
+                getActivity().startActivity(myIntent);
             }
         });
 

@@ -12,51 +12,61 @@
         android:layout_margin="25dp"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:text="Was willst du lernen?" />
+        android:text="@string/cat_head" />
 
     <Button
         android:id="@+id/hadithBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/catText"
-        android:background="@color/violet"
         android:layout_margin="16dp"
-        android:text="Hadith" />
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:shadowRadius="5"
+        android:text="@string/hadith_btn_txt" />
 
     <Button
         android:id="@+id/prayerBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/hadithBtn"
-        android:background="@color/orange5"
         android:layout_margin="16dp"
-        android:text="Gebete" />
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:shadowRadius="5"
+        android:text="@string/prayer_btn_txt" />
 
     <Button
         android:id="@+id/namazBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/prayerBtn"
-        android:background="@color/yellow2"
         android:layout_margin="16dp"
-        android:text="Namaz" />
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:shadowRadius="5"
+        android:text="@string/namaz_btn_txt" />
 
     <Button
         android:id="@+id/nazmBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/namazBtn"
-        android:background="@color/grey05"
         android:layout_margin="16dp"
-        android:text="Gedicht" />
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:shadowRadius="5"
+        android:text="@string/nazm_btn_txt" />
 
     <Button
         android:id="@+id/quranBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/nazmBtn"
-        android:background="@color/blue2"
         android:layout_margin="16dp"
-        android:text="Koran" />
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:shadowRadius="5"
+        android:text="@string/quran_btn_txt" />
 
 </RelativeLayout>

@@ -7,23 +7,23 @@
         <item
             android:id="@+id/nav_main_layout"
             android:icon="@drawable/waqfenau"
-            android:title="Waqf-e-Nau" />
+            android:title="@string/item1_text" />
         <item
             android:id="@+id/nav_nisab_layout"
             android:icon="@drawable/nisab"
-            android:title="Lehrprogramm (Nisab)" />
+            android:title="@string/item2_text" />
         <item
             android:id="@+id/nav_classes_layout"
             android:icon="@drawable/classes"
-            android:title="Waqf-e-Nau Klassen" />
+            android:title="@string/item3_text" />
         <item
             android:id="@+id/nav_third_layout"
             android:icon="@drawable/parents"
-            android:title="Für Eltern" />
+            android:title="@string/item4_text" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/contact"
-            android:title="Kontakt" />
+            android:title="@string/item5_text" />
     </group>
 <!--
     <item android:title="Communicate">

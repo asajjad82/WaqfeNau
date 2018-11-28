@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:padding="10dp">
-
+    android:padding="15dp">
 
     <TextView
         android:id="@+id/phone"
@@ -13,8 +12,7 @@
         android:textColor="@color/black"
         android:textSize="15sp"
         android:textStyle="bold"
-        android:padding="10dp"
-        android:text="Telefone:" />
+        android:text="Tel:" />
 
     <TextView
         android:id="@+id/phoneText"
@@ -23,10 +21,10 @@
         android:layout_toRightOf="@id/phone"
         android:textColor="@color/black"
         android:textSize="15sp"
+        android:layout_marginLeft="50dp"
         android:autoLink="phone"
         android:linksClickable="true"
-        android:padding="10dp"
-        android:text="+49 69 50688772" />
+        android:text="@string/phone_text" />
 
     <TextView
         android:id="@+id/email"
@@ -35,22 +33,23 @@
         android:layout_below="@id/phone"
         android:textColor="@color/black"
         android:textSize="15sp"
+        android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:padding="10dp"
-        android:text="Email ID:" />
+        android:text="E-Mail:" />
 
     <TextView
         android:id="@+id/emailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/phone"
+        android:layout_toRightOf="@id/email"
         android:layout_below="@id/phoneText"
         android:textColor="@color/black"
         android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
         android:autoLink="email"
         android:linksClickable="true"
-        android:padding="10dp"
-        android:text="Waqf-e-Nau@ahmadiyya.de" />
+        android:text="@string/email_text" />
 
 
     <TextView
@@ -60,9 +59,9 @@
         android:layout_below="@id/email"
         android:textColor="@color/black"
         android:textSize="15sp"
+        android:layout_marginTop="15dp"
         android:textStyle="bold"
-        android:padding="10dp"
-        android:text="Adresse:" />
+        android:text="@string/address_head" />
 
     <TextView
         android:id="@+id/addressText"
@@ -71,12 +70,8 @@
         android:textColor="@color/black"
         android:layout_toRightOf="@id/address"
         android:layout_below="@id/emailText"
-        android:autoLink="map"
-        android:linksClickable="true"
-        android:padding="10dp"
-        android:text="Genfer Strasse 11, 60437, Frankfurt am Main" />
-
-
-
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/address_text" />
 
 </RelativeLayout>
